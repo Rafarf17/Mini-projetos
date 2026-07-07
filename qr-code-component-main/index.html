@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>QR code component</title>
+
+  <style>
+    
+    body{
+      height: 100vh; /* sem isso, fica centralizado, porém no comço da tela */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: hsl(212, 45%, 89%);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #box1 {
+      height: 350px;
+      width: 200px;
+      padding: 10px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      background-color: white;
+    }
+
+    /* coisas que estão dentro do box1*/
+    #QR {
+      height: 200px;
+      width: 200px;
+      border-radius: 10px;
+    }
+
+    h3 {
+      color: hsl(218, 44%, 22%);
+      text-align: center;
+      font-size: 12pt;
+    }
+
+    p {
+      text-align: center;
+      color:  hsl(216, 15%, 48%);
+      font-size: 9pt;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div id="box1">  
+    <img id="QR" src="./images/image-qr-code.png" alt="qrcode">  
+    <h3>
+      Improve your front-end skills by building projects
+    </h3>
+    <p>
+      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    </p>
+</div>
+</body>
+</html>
