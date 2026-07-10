@@ -34,3 +34,8 @@ Responsividade para celular e PC
 🙌 Créditos
 Desafio proposto por Frontend Mentor.
 Desenvolvido por Rafael Souza Dantas.
+
+Links dos projetos hospedados:
+
+https://project1-qrcode-fm.netlify.app/
+https://project2-fm.netlify.app/
