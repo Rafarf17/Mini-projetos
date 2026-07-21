@@ -23,6 +23,12 @@ Todos os projetos estão hospedados no Netlify para visualização.
    - Aprendizados: estruturação de layout com grid, boas práticas de espaçamento.  
    - Ferramentas de apoio: Gemini para dúvidas de grid.
 
+4. **Simple Omelet Recipe**  
+   - [Demo no Netlify](https://bright-boba-2c6422.netlify.app/)  
+   - Tecnologias: HTML, CSS, React (JSX convertido para HTML)  
+   - Aprendizados: estruturação de componentes em React e transporte para HTML estático, uso de Flexbox, importação de fontes do Google Fonts, estilização com HSL.  
+   - Ferramentas de apoio: Copilot para revisão de semântica e dicas de CSS nesting.
+
 ## 📌 Reflexões
 - Esse nível me ajudou a reforçar conceitos básicos de HTML e CSS.  
 - Aprendi a documentar melhor meus projetos e a usar IAs como apoio no estudo.  
