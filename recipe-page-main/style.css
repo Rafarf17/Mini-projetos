@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  justify-content: center;  
+  background-color: hsl(329, 62%, 93%); 
+  text-align: left; 
+  font-family: 'Inter';
+}
+
+.block {
+  background-color: hsl(0, 0%, 100%);
+  width: 40em;
+  height: 102em;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 100px;
+}
+
+.block #img {
+  border-radius: 20px;
+  width: 90%;
+  height: auto; 
+  display: block;
+  margin-top: 20px;
+}
+
+.block hr {
+  border-top: 3px solid hsl(32, 16%, 81%);
+  width: 35em;
+  margin-top: 1.5em;
+  border-radius: 5px;
+}
+
+.block2 {
+  background-color: hsl(330, 100%, 98%);
+  color: black;
+  width: 35em;
+  height: 10em;
+  border-radius: 15px;
+}
+
+.block2 li {
+  padding: 0.2em;
+  margin-left: 1em;
+  color: hsl(332, 51%, 32%);;
+}
+
+.block3 {
+  width: 35em;
+}
+
+.block3 li {
+  padding: 0.3em;
+  color: hsl(24, 5%, 18%);
+}
+
+.block3 p {
+  text-align: left;
+  color: hsl(30, 10%, 34%);
+  margin-left: -2em;
+  padding-bottom: 0.2em;
+}
+
+.block4 {
+  width: 35em;
+  display: block;
+  border-collapse: collapse;
+  font-family: Outfit, sans-serif;
+  overflow: hidden;
+}
+
+.block4 td {
+  border-bottom: 1px solid hsl(32, 16%, 81%);
+  padding: 10px;
+  width: 30em;
+}
+
+.block4 td:first-child {
+  font-weight: bold; 
+}
+
+.block4 td:last-child {
+  text-align: right; 
+}
+
+h1 {
+  color: hsl(24, 5%, 18%);
+  font-family: "Young Serif", serif;
+  width: 17.5em;
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+}
+
+h3 {
+  margin-left: 1.5em;
+  color: hsl(332, 51%, 32%);
+}
+
+p {
+  padding: 2em;
+  margin-top: -2.5em;
+  width: 35em;
+  color: hsl(30, 10%, 34%);
+}
